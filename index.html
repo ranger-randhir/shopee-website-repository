@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-commerce</title>
+    <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.4.1/css/glide.core.min.css">
+</head>
+<body >
+     <div id="pre-loader">
+        <div class="loader"></div>
+    </div>
+
+    <div class="adverts">
+        <span>30% off on your first purchase</span>
+    </div>
+    <header class="header" id="home">
+        <nav class="navigation">
+            <div class="nav-center container">
+                <a href="#home" class="logo">
+                    <h1>SH<span>O</span>PEE</h1>
+                </a>
+                <div class="nav-menu">
+                    <div class="nav-top">
+                        <div class="logo">
+                            <h1>SHOP<span>E</span>E</h1>
+                        </div>
+                        <div class="close">
+                            <i class="fas fa-times"></i>
+                        </div>
+                    </div>
+                    <ul class="nav-list">
+                        <li class="nav-item">
+                            <a href="#home" class="nav-link scroll-link">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#shop" class="nav-link scroll-link">Products</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#new" class="nav-link scroll-link">New</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#recent" class="nav-link scroll-link">Recent</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#blog" class="nav-link scroll-link">Blog</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="nav-icons">
+                    <span><i class="fas fa-user"></i></span>
+                    <span><i class="fas fa-search"></i></span>
+                </div>
+                <div class="cart">
+                    <span class="cart-icon">
+                        <i class="fas fa-shopping-cart"></i>
+                        <span class="cart-count">0</span>
+                    </span>
+                </div>
+                <div class="hamburger">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </div>
+        </nav>
+        <div class="cart-overlay show">
+           <div class="cart-content">
+                <span class="close-cart">
+                    <i class="fas fa-times"></i>
+                </span>
+                <h2>Your Cart</h2>
+                <div class="whole-cart">
+                </div>
+                <div class="clear-cart">
+                    <h3>
+                        Your Total: $
+                        <span class="cart-total">$800.00</span>
+                    </h3>
+                    <button class="clear-cart">Clear Cart</button>
+                </div>
+           </div>
+        </div>
+    </header>
+    <main>
+        <section class="hero">
+            <div class="glide" id="glide1">
+                <div class="glide__track" data-glide-el="track">
+                    <ul class="glide__slides glide__hero">
+                        <li class="glide__slide">
+                            <div class="banner">
+                                <div class="banner-content">
+                                    <span>New Inspiration 2020</span>
+                                    <h1>Clothing Made For You</h1>
+                                    <h3>Trending from men and women's collection</h3>
+                                    <div class="buttons-group">
+                                        <button>Shop Women's</button>
+                                        <button>Shop Men's</button>
+                                    </div>
+                                </div>
+                                <img src="./images/banner_1.png" class="special_01" alt="">
+                            </div>
+                        </li>
+                        <li class="glide__slide">
+                            <div class="banner">
+                                <div class="banner-content">
+                                    <span>New Inspiration 2020</span>
+                                    <h1>Clothing Made For You</h1>
+                                    <h3>Trending from men and women's collection</h3>
+                                    <div class="buttons-group">
+                                        <button>Shop Women's</button>
+                                        <button>Shop Men's</button>
+                                    </div>
+                                </div>
+                                <img src="./images/banner_2.png" class="special_02" alt="">
+                            </div>
+                        </li>
+                        <li class="glide__slide">
+                            <div class="banner">
+                                <div class="banner-content">
+                                    <span>New Inspiration 2020</span>
+                                    <h1>Clothing Made For You</h1>
+                                    <h3>Trending from man's and women's collection</h3>
+                                    <div class="buttons-group">
+                                        <button>Shop Women's</button>
+                                        <button>Shop Men's</button>
+                                    </div>
+                                </div>
+                                <img src="./images/banner_3.png" class="special_03" alt="">
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="glide__arrows" data-glide-el="controls">
+                    <button class="glide__arrow glide__arrow--left" data-glide-dir="<"><i class="fas fa-arrow-left"></i></button>
+                    <button class="glide__arrow glide__arrow--right" data-glide-dir=">"><i class="fas fa-arrow-right"></i></button>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="section category">
+            <h2 class="title">Allow your style to match your ambition!</h2>
+            <div class="category-center container">
+                <div class="category-box">
+                    <img src="./images/cat1.jpg" alt="">
+                    <div class="content">
+                        <h2>Shop for Man</h2>
+                        <span>123 Products</span>
+                        <a href="#">shop now</a>
+                    </div>
+                </div>
+                <div class="category-box">
+                    <img src="./images/cat2.jpg" alt="">
+                    <div class="content">
+                        <h2>Shop from Collection</h2>
+                        <span>123 Products</span>
+                        <a href="#">shop now</a>
+                    </div>
+                </div>
+                <div class="category-box">
+                    <img src="./images/cat3.jpg" alt="">
+                    <div class="content">
+                        <h2>Shop for Women's</h2>
+                        <span>123 Products</span>
+                        <a href="#">shop now</a>
+                    </div>
+                </div>
+            </div> 
+        </section>
+
+        <section class="section sort-category">
+            <div class="title-container">
+                <div class="section-titles">
+                    <div class="section-title active filter-btn" data-id="trend">
+                        <span class="dot"></span>
+                        <h1 class="primary-title">Trending Products</h1>
+                    </div>
+                </div>
+                <div class="section-titles">
+                    <div class="section-title  filter-btn" data-id="special">
+                        <span class="dot"></span>
+                        <h1 class="primary-title">Special Products</h1>
+                    </div>
+                </div>
+                <div class="section-titles">
+                    <div class="section-title  filter-btn" data-id="featured">
+                        <span class="dot"></span>
+                        <h1 class="primary-title">Featured Products</h1>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="product-center container">
+            </div>
+        </section>
+
+
+        <section class="gallery container">
+            <figure class="gallery-item item-1">  
+                <img src="./images/grid_1.jpg" alt="" class="gallery-img">
+                <div class="content">
+                    <h2>Our Popular Products</h2>
+                    <a href="#">View More</a>
+                </div>
+            </figure>
+            <figure class="gallery-item item-2">  
+                <img src="./images/grid_2.jpg" alt="" class="gallery-img">
+                <div class="content">
+                    <h2>Winter Collection</h2>
+                </div>
+            </figure>
+            <figure class="gallery-item item-3">  
+                <img src="./images/grid_3.jpg" alt="" class="gallery-img">
+                <div class="content">
+                    <h2>Summer Collection</h2>
+                </div>
+            </figure>
+            <figure class="gallery-item item-4">  
+                <img src="./images/grid_4.jpg" alt="" class="gallery-img">
+                <div class="content">
+                    <h2>Wooping 10% discount on Off Spring sale</h2>
+                </div>
+            </figure>
+        </section>
+
+        <section class="section" id="shop">
+            <div class="title-container">
+                <div class="section-titles">
+                    <div class="section-title active" data-id="latest">
+                        <span class="dot"></span>
+                        <h1 class="primary-title">All Products</h1>
+                    </div>
+                </div>
+            </div>
+
+            <div class="shop-center container">
+                
+            </div>
+        </section>
+
+        <div class="section brands container">
+            <div class="glide" id="glide2">
+                <div class="glide__track" data-glide-el="track">
+                    <ul class="glide__slides">
+                        <li class="glide__slide">
+                            <img src="./images/brand_1.png" alt="">
+                        </li>
+                        <li class="glide__slide">
+                            <img src="./images/brand_2.png" alt="">
+                        </li>
+                        <li class="glide__slide">
+                            <img src="./images/brand_3.png" alt="">
+                        </li>
+                        <li class="glide__slide">
+                            <img src="./images/nike.jpg" alt="">
+                        </li>
+                        <li class="glide__slide">
+                            <img src="./images/sparx-logo.png" alt="">
+                        </li>
+                        <li class="glide__slide">
+                            <img src="./images/fila.png" alt="">
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <section class="section latest-products" id="new">
+            <div class="title-container">
+                <div class="section-titles">
+                    <div class="section-title active" data-id="new">
+                        <span class="dot"></span>
+                        <h1 class="primary-title">Latest Products</h1>
+                    </div>
+                </div>
+            </div>
+
+            <div class="latest-center product-center container"></div>
+        </section>
+
+        <section class="section recent-products" id="recent">
+            <div class="title-container">
+                <div class="section-titles">
+                    <div class="section-title active" data-id="new">
+                        <span class="dot"></span>
+                        <h1 class="primary-title">Recently Viewed</h1>
+                    </div>
+                </div>
+            </div>
+
+            <div class="recent-center product-center container"></div>
+        </section>
+
+
+        <section class="facility section" id="facility">
+            <div class="facility-container container">
+                <div class="facility-box">
+                    <div class="facility-icon">
+                        <i class="fas fa-plane"></i>
+                    </div>
+                    <p>Free Shipping World Wide</p>
+                </div>
+
+                <div class="facility-box">
+                    <div class="facility-icon">
+                        <i class="fas fa-money-bill-wave"></i>
+                    </div>
+                    <p>100% Money Back Guarntee</p>
+                </div>
+
+                <div class="facility-box">
+                    <div class="facility-icon">
+                        <i class="fas fa-credit-card"></i>
+                    </div>
+                    <p>Various Payment Options</p>
+                </div>
+
+                <div class="facility-box">
+                    <div class="facility-icon">
+                        <i class="fas fa-headset"></i>
+                    </div>
+                    <p>24/7 Online Support </p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <div class="popup">
+        <div class="popup-content">
+            <div class="popup-close">
+                <i class="fas fa-times"></i>
+            </div>
+            <div class="popup-left">
+                <div class="popup-img">
+                    <img src="./images/cat2.jpg" alt="">
+                </div>
+            </div>
+            <div class="popup-right">
+                <div class="right-content">
+                    <h1>Get Discount <span>30%</span>Off</h1>
+                    <p>Sign up to our newsletter and save 30% on your next purchase. No spam, we promise!</p>
+                    <form action="">
+                        <input type="email" placeholder="Enter your email ... " class="popup-form">
+                        <a href="#">Subscribe</a>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <footer id="footer" class="section footer">
+        <div class="container">
+            <div class="footer-container">
+                <div class="footer-center">
+                    <h3>Extras</h3>
+                    <a href="">Brands</a>
+                    <a href="">Gift Certificate</a>
+                    <a href="">Affiliate</a>
+                    <a href="">Specials</a>
+                    <a href="">Site Map</a>
+                </div>
+                <div class="footer-center">
+                    <h3>Information</h3>
+                    <a href="">About Us</a>
+                    <a href="">Privacy Policy</a>
+                    <a href="">Terms and Conditions</a>
+                    <a href="">Contact Us</a>
+                    
+                </div>
+                <div class="footer-center">
+                    <h3>My Account</h3>
+                    <a href="">My Account</a>
+                    <a href="">Order History</a>
+                    <a href="">Wish List</a>
+                    <a href="">Newsletter</a>
+                    <a href="">Returns</a>
+                </div>
+
+                <div class="footer-center">
+                    <h3>Contact Us</h3>
+                    <div>
+                        <span>
+                            <i class="fas fa-map-marker-alt"></i>
+                        </span>
+                        42 Dream House, Dreammy Street, 7131 Dreamville, USA
+                    </div>
+                    <div>
+                        <span>
+                            <i class="far fa-envelope"></i>
+                        </span>
+                       company@gmail.com
+                    </div>
+                    <div>
+                        <span>
+                            <i class="fas fa-phone"></i>
+                        </span>
+                       +91-9079647856
+                    </div>
+                    <div>
+                        <span>
+                            <i class="fas fa-paper-plane"></i>
+                        </span>
+                        Dream City, USA
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.4.1/glide.min.js"></script>
+    <script src="./js/slide.js"></script>
+    <script src="./js/index.js"></script>
+    <script src="./js/product.js"></script>
+    
+</body>
+</html>
