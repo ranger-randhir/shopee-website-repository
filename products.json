@@ -1,0 +1,126 @@
+{
+  "products": [
+    {
+      "id":1,
+      "title": "Casual Shoes",
+      "price": 85.79,
+      "image": "./images/pic1.png",
+      "category": "featured"
+    },
+    { 
+      "id":2,
+      "title": "Queen Sandals",
+      "price": 70.25,
+      "image": "./images/pic2.png",
+      "category": "trend"
+    },
+    { "id":3,
+      "title": "Supream Bag",
+      "price": 150.97,
+      "image": "./images/pic3.png",
+      "category": "featured"
+    },
+    { "id":4,
+      "title": "Divine Jacket",
+      "price": 250.00,
+      "image": "./images/pic4.png",
+      "category": "trend"
+    },
+    { "id":5,
+      "title": "Skybag",
+      "price": 130.00,
+      "image": "./images/pic5.png",
+      "category": "featured"
+    },
+    {  "id":6,
+      "title": "Street Casual",
+      "price": 110.45,
+      "image": "./images/pic6.png",
+      "category": "recent"
+    },
+    { "id":7,
+      "title": "Road Runner",
+      "price": 150.67,
+      "image": "./images/pic8.png",
+      "category": "trend"
+    },
+    {  "id":8,
+      "title": "Camping Bag",
+      "price": 250.89,
+      "image": "./images/pic7.png",
+      "category": "featured"
+    },
+    {  "id":9,
+      "title": "Butterfly footwear",
+      "price": 500.21,
+      "image": "./images/pic9.png",
+      "category": "recent"
+    },
+    { "id":10,
+      "title": "College Bag",
+      "price": 140.45,
+      "image": "./images/pic10.png",
+      "category": "trend"
+    },
+    { "id":11,
+      "title": "Nike SportsWear",
+      "price": 160.34,
+      "image": "./images/pic11.png",
+      "category": "special"
+    },
+    { "id":12,
+      "title": "Star Flying Bag",
+      "price": 320.00,
+      "image": "./images/pic12.png",
+      "category": "special"
+    },
+    { "id":13,
+      "title": "Nike Comforts",
+      "price": 400.56,
+      "image": "./images/pic13.png",
+      "category": "special"
+    },
+    { "id":14,
+      "title": "Asian's foot",
+      "price": 250.00,
+      "image": "./images/pic14.png",
+      "category": "recent"
+    },
+    { "id":15,
+      "title": "Louis Vuitton",
+      "price": 1200.00,
+      "image": "./images/pic15.png",
+      "category": "special"
+    },
+    { "id":16,
+      "title": "T-shirts collection",
+      "price": 85.29,
+      "image": "./images/tshirt.jpg",
+      "category": "latest"
+    },
+    { "id": 17,
+      "title": "Lehnga",
+      "price":1700.99,
+      "image": "./images/girls.jpg",
+      "category": "recent"
+    },
+    { "id":18,
+      "title": "Blood Stain shirt",
+      "price": 560.67,
+      "image": "./images/images.jpg",
+      "category": "latest"
+    },
+    { "id":19,
+      "title": "Casual Spects",
+      "price": 800.98,
+      "image": "./images/spects.jpg",
+      "category": "latest"
+    },
+    { "id":20,
+      "title": "Denim shirt",
+      "price": 900.52,
+      "image": "./images/images1.jpg",
+      "category": "latest"
+    }
+  ]
+}
